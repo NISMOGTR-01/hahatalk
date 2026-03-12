@@ -1,0 +1,57 @@
+﻿<Window x:Class="HAHATalk.Views.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HAHATalk.Views" 
+        xmlns:controls="clr-namespace:HAHATalk.Controls"      
+        xmlns:vm="clr-namespace:HAHATalk.ViewModels"
+        xmlns:ctrl="clr-namespace:WPFLib.Controls;assembly=WPFLib"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        Title="MainView" Height="550" Width="350">
+    <Window.Resources>
+        <!-- DataType에 ViewModel이 들어옴-->
+        <DataTemplate DataType="{x:Type vm:LoginControlViewModel}"> <!-- ViewModel-->
+            <!-- View -->
+            <controls:LoginControl/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:ChangePwdControlViewModel}">
+            <!-- ViewModel-->
+            <!-- View -->
+            <controls:ChangePwdControl/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:SignupControlViewModel}">
+            <!-- ViewModel-->
+            <!-- View -->
+            <controls:SignupControl/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:FindAccountControlViewModel}">
+            <!-- ViewModel-->
+            <!-- View -->
+            <controls:FindAccountControl/>
+        </DataTemplate>
+    </Window.Resources>
+    
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="20"
+                      ResizeBorderThickness="2"/>
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <!-- Title Bar -->
+        <controls:TitleBar />
+
+        <!-- body -->
+        <ctrl:ControlSlider Grid.Row="1"
+                            ViewModel="{Binding CurrentViewModel}"
+                            SlideType="{Binding SlideType}"
+                            Duration="0:0:0.3"/>
+
+
+    </Grid>
+</Window>

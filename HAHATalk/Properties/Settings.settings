@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="HAHATalk.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CONN_STRING_ACCOUNT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UID=root;PWD=1357;Server=127.0.0.1;Port=3306;Database=hahatalk</Value>
+    </Setting>
+    <Setting Name="CONN_STRING_MS_ACCOUNT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server=127.0.0.1; Database=ｈａｈａｔａｌｋ; User Id=root; Password=135７; TrustServerCertificate=True; Encrypt=False;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

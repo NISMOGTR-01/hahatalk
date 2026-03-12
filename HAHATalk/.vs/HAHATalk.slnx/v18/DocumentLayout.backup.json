@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|c:\\users\\loni\\desktop\\project\\hahatalk\\hahatalk\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|solutionrelative:hahatalk\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|c:\\users\\loni\\desktop\\project\\hahatalk\\hahatalk\\repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|solutionrelative:hahatalk\\repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95A872E-D845-4E32-AE2D-06CAAA00D667}|CommonLib\\CommonLib.csproj|c:\\users\\loni\\desktop\\project\\hahatalk\\commonlib\\database\\mssqldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F95A872E-D845-4E32-AE2D-06CAAA00D667}|CommonLib\\CommonLib.csproj|solutionrelative:commonlib\\database\\mssqldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|c:\\users\\loni\\desktop\\project\\hahatalk\\hahatalk\\viewmodels\\signupcontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|solutionrelative:hahatalk\\viewmodels\\signupcontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|c:\\users\\loni\\desktop\\project\\hahatalk\\hahatalk\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|solutionrelative:hahatalk\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95A872E-D845-4E32-AE2D-06CAAA00D667}|CommonLib\\CommonLib.csproj|c:\\users\\loni\\desktop\\project\\hahatalk\\commonlib\\database\\sqlparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F95A872E-D845-4E32-AE2D-06CAAA00D667}|CommonLib\\CommonLib.csproj|solutionrelative:commonlib\\database\\sqlparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\hahatalk\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|solutionrelative:hahatalk\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95A872E-D845-4E32-AE2D-06CAAA00D667}|CommonLib\\CommonLib.csproj|c:\\users\\loni\\desktop\\project\\hahatalk\\commonlib\\database\\mysqldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F95A872E-D845-4E32-AE2D-06CAAA00D667}|CommonLib\\CommonLib.csproj|solutionrelative:commonlib\\database\\mysqldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\HAHATalk\\Repositories\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "HAHATalk\\Repositories\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\HAHATalk\\Repositories\\AccountRepository.cs",
+              "RelativeToolTip": "HAHATalk\\Repositories\\AccountRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:53:09.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignupControlViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\HAHATalk\\ViewModels\\SignupControlViewModel.cs",
+              "RelativeDocumentMoniker": "HAHATalk\\ViewModels\\SignupControlViewModel.cs",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\HAHATalk\\ViewModels\\SignupControlViewModel.cs",
+              "RelativeToolTip": "HAHATalk\\ViewModels\\SignupControlViewModel.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAlwLgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:50:25.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MSSqlDb.cs",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\CommonLib\\DataBase\\MSSqlDb.cs",
+              "RelativeDocumentMoniker": "CommonLib\\DataBase\\MSSqlDb.cs",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\CommonLib\\DataBase\\MSSqlDb.cs",
+              "RelativeToolTip": "CommonLib\\DataBase\\MSSqlDb.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:37:59.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\HAHATalk\\Repositories\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "HAHATalk\\Repositories\\IAccountRepository.cs",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\HAHATalk\\Repositories\\IAccountRepository.cs",
+              "RelativeToolTip": "HAHATalk\\Repositories\\IAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:02:31.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\HAHATalk\\Repositories\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "HAHATalk\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\HAHATalk\\Repositories\\RepositoryBase.cs",
+              "RelativeToolTip": "HAHATalk\\Repositories\\RepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:49:07.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MySqlDb.cs",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\CommonLib\\DataBase\\MySqlDb.cs",
+              "RelativeDocumentMoniker": "CommonLib\\DataBase\\MySqlDb.cs",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\CommonLib\\DataBase\\MySqlDb.cs",
+              "RelativeToolTip": "CommonLib\\DataBase\\MySqlDb.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:38:10.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\HAHATalk\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "HAHATalk\\Properties\\Settings.settings",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\HAHATalk\\Properties\\Settings.settings",
+              "RelativeToolTip": "HAHATalk\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2026-03-12T08:42:33.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SqlParameter.cs",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\CommonLib\\DataBase\\SqlParameter.cs",
+              "RelativeDocumentMoniker": "CommonLib\\DataBase\\SqlParameter.cs",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Project\\HAHATalk\\CommonLib\\DataBase\\SqlParameter.cs",
+              "RelativeToolTip": "CommonLib\\DataBase\\SqlParameter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T08:48:56.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

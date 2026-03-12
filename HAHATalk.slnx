@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="CommonLib/CommonLib.csproj" Id="f95a872e-d845-4e32-ae2d-06caaa00d667" />
+  <Project Path="HAHATalk/HAHATalk.csproj" />
+  <Project Path="WPFControlSlider/WPFControlSlider.csproj" Id="9ca7a225-a742-481a-95ef-fb220441ce0b" />
+  <Project Path="WPFLib/WPFLib.csproj" Id="d88ae502-4f78-4090-9a14-70736e298856" />
+  <Project Path="WPF_DBConn/WPF_DBConn.csproj" Id="d54376c0-f4e9-4d7f-bf6e-d2d0dacc7c95" />
+  <Project Path="WPF_DINavigation/WPF_DINavigation.csproj" Id="97b3919f-a675-4681-9517-06711b3aa55e" />
+</Solution>

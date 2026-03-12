@@ -1,0 +1,11 @@
+C:\Project\HAHATalk\WPFLib\bin\Debug\net6.0-windows7.0\WPFLib.deps.json
+C:\Project\HAHATalk\WPFLib\bin\Debug\net6.0-windows7.0\WPFLib.dll
+C:\Project\HAHATalk\WPFLib\bin\Debug\net6.0-windows7.0\WPFLib.pdb
+C:\Project\HAHATalk\WPFLib\obj\Debug\net6.0-windows7.0\WPFLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\HAHATalk\WPFLib\obj\Debug\net6.0-windows7.0\WPFLib.AssemblyInfoInputs.cache
+C:\Project\HAHATalk\WPFLib\obj\Debug\net6.0-windows7.0\WPFLib.AssemblyInfo.cs
+C:\Project\HAHATalk\WPFLib\obj\Debug\net6.0-windows7.0\WPFLib.csproj.CoreCompileInputs.cache
+C:\Project\HAHATalk\WPFLib\obj\Debug\net6.0-windows7.0\WPFLib.dll
+C:\Project\HAHATalk\WPFLib\obj\Debug\net6.0-windows7.0\refint\WPFLib.dll
+C:\Project\HAHATalk\WPFLib\obj\Debug\net6.0-windows7.0\WPFLib.pdb
+C:\Project\HAHATalk\WPFLib\obj\Debug\net6.0-windows7.0\ref\WPFLib.dll
