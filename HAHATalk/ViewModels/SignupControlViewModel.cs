@@ -39,6 +39,7 @@ namespace HAHATalk.ViewModels
 
         [ObservableProperty]
         private string _emailValidationText = default!;
+
         [ObservableProperty]
         private string _validationText = "";
 
@@ -220,7 +221,7 @@ namespace HAHATalk.ViewModels
             return EmailValidationType.None;
         }
 
-
+        // 이메일 유효성 체크 
         private void SetEmailValidation(string email)
         {
             if (string.IsNullOrWhiteSpace(email))
@@ -263,33 +264,6 @@ namespace HAHATalk.ViewModels
             FormatError
         }
 
-        /*
-         * 
-        private readonly INavigationService _navigationService;
-
-        // 계정 찾기 
-        [RelayCommand]
-        public void NavigateFindAccount()
-        {
-            _navigationService.Navigate(NaviType.FindAccount);
-        }
-
-        [RelayCommand]
-        public void NavigateChangePassword()
-        {
-            _navigationService.Navigate(NaviType.ChangePwd);
-        }
-
-        [RelayCommand]
-        public void NavigateLogin()
-        {
-            _navigationService.Navigate(NaviType.Login);
-        }
-
-        public SignupControlViewModel(INavigationService navigationService)
-        {
-            _navigationService = navigationService;
-        }
-        */
+     
     }
 }

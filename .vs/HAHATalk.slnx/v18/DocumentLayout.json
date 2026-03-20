@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LONI\\Desktop\\Port\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|c:\\users\\loni\\desktop\\port\\hahatalk\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|solutionrelative:hahatalk\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|c:\\users\\loni\\desktop\\port\\hahatalk\\repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|solutionrelative:hahatalk\\repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|c:\\users\\loni\\desktop\\port\\hahatalk\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|solutionrelative:hahatalk\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|c:\\users\\loni\\desktop\\port\\hahatalk\\viewmodels\\changepwdcontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|solutionrelative:hahatalk\\viewmodels\\changepwdcontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|c:\\users\\loni\\desktop\\port\\hahatalk\\converters\\windowstateiconconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|solutionrelative:hahatalk\\converters\\windowstateiconconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|c:\\users\\loni\\desktop\\port\\hahatalk\\controls\\changepwdcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|solutionrelative:hahatalk\\controls\\changepwdcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|c:\\users\\loni\\desktop\\port\\hahatalk\\controls\\changepwdcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{44A74E17-BF21-FC1E-10A4-0B94E0ECC145}|HAHATalk\\HAHATalk.csproj|solutionrelative:hahatalk\\controls\\changepwdcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95A872E-D845-4E32-AE2D-06CAAA00D667}|CommonLib\\CommonLib.csproj|c:\\users\\loni\\desktop\\port\\commonlib\\database\\sqlparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F95A872E-D845-4E32-AE2D-06CAAA00D667}|CommonLib\\CommonLib.csproj|solutionrelative:commonlib\\database\\sqlparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95A872E-D845-4E32-AE2D-06CAAA00D667}|CommonLib\\CommonLib.csproj|c:\\users\\loni\\desktop\\port\\commonlib\\database\\mysqldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F95A872E-D845-4E32-AE2D-06CAAA00D667}|CommonLib\\CommonLib.csproj|solutionrelative:commonlib\\database\\mysqldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95A872E-D845-4E32-AE2D-06CAAA00D667}|CommonLib\\CommonLib.csproj|c:\\users\\loni\\desktop\\port\\commonlib\\database\\mssqldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F95A872E-D845-4E32-AE2D-06CAAA00D667}|CommonLib\\CommonLib.csproj|solutionrelative:commonlib\\database\\mssqldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Port\\HAHATalk\\Repositories\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "HAHATalk\\Repositories\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Port\\HAHATalk\\Repositories\\AccountRepository.cs",
+              "RelativeToolTip": "HAHATalk\\Repositories\\AccountRepository.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAwHgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T03:21:13.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Port\\HAHATalk\\Repositories\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "HAHATalk\\Repositories\\IAccountRepository.cs",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Port\\HAHATalk\\Repositories\\IAccountRepository.cs",
+              "RelativeToolTip": "HAHATalk\\Repositories\\IAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T03:20:21.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Port\\HAHATalk\\Repositories\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "HAHATalk\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Port\\HAHATalk\\Repositories\\RepositoryBase.cs",
+              "RelativeToolTip": "HAHATalk\\Repositories\\RepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T03:20:10.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChangePwdControlViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Port\\HAHATalk\\ViewModels\\ChangePwdControlViewModel.cs",
+              "RelativeDocumentMoniker": "HAHATalk\\ViewModels\\ChangePwdControlViewModel.cs",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Port\\HAHATalk\\ViewModels\\ChangePwdControlViewModel.cs",
+              "RelativeToolTip": "HAHATalk\\ViewModels\\ChangePwdControlViewModel.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAiwPkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T03:12:29.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WindowStateIconConverter.cs",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Port\\HAHATalk\\Converters\\WindowStateIconConverter.cs",
+              "RelativeDocumentMoniker": "HAHATalk\\Converters\\WindowStateIconConverter.cs",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Port\\HAHATalk\\Converters\\WindowStateIconConverter.cs",
+              "RelativeToolTip": "HAHATalk\\Converters\\WindowStateIconConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T03:12:24.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChangePwdControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Port\\HAHATalk\\Controls\\ChangePwdControl.xaml.cs",
+              "RelativeDocumentMoniker": "HAHATalk\\Controls\\ChangePwdControl.xaml.cs",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Port\\HAHATalk\\Controls\\ChangePwdControl.xaml.cs",
+              "RelativeToolTip": "HAHATalk\\Controls\\ChangePwdControl.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T03:11:59.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SqlParameter.cs",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Port\\CommonLib\\DataBase\\SqlParameter.cs",
+              "RelativeDocumentMoniker": "CommonLib\\DataBase\\SqlParameter.cs",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Port\\CommonLib\\DataBase\\SqlParameter.cs",
+              "RelativeToolTip": "CommonLib\\DataBase\\SqlParameter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T03:07:48.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChangePwdControl.xaml",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Port\\HAHATalk\\Controls\\ChangePwdControl.xaml",
+              "RelativeDocumentMoniker": "HAHATalk\\Controls\\ChangePwdControl.xaml",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Port\\HAHATalk\\Controls\\ChangePwdControl.xaml",
+              "RelativeToolTip": "HAHATalk\\Controls\\ChangePwdControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-16T03:07:06.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MySqlDb.cs",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Port\\CommonLib\\DataBase\\MySqlDb.cs",
+              "RelativeDocumentMoniker": "CommonLib\\DataBase\\MySqlDb.cs",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Port\\CommonLib\\DataBase\\MySqlDb.cs",
+              "RelativeToolTip": "CommonLib\\DataBase\\MySqlDb.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T03:07:16.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MSSqlDb.cs",
+              "DocumentMoniker": "C:\\Users\\LONI\\Desktop\\Port\\CommonLib\\DataBase\\MSSqlDb.cs",
+              "RelativeDocumentMoniker": "CommonLib\\DataBase\\MSSqlDb.cs",
+              "ToolTip": "C:\\Users\\LONI\\Desktop\\Port\\CommonLib\\DataBase\\MSSqlDb.cs",
+              "RelativeToolTip": "CommonLib\\DataBase\\MSSqlDb.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T03:07:15.908Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

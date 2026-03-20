@@ -39,12 +39,16 @@ namespace HAHATalk
 
             //stores
             services.AddSingleton<MainNavigationStore>();
+            services.AddSingleton<UserStore>();         // 2026.03.17 Add UserStore
 
             // services
             services.AddSingleton<INavigationService, NavigationService>();
 
             // Repositories
             services.AddTransient<IAccountRepository, AccountRepository>();
+            services.AddTransient<IChatRepository, ChatRepository>();   //2026.03.17 ChatRespository 추가 
+            services.AddTransient<IFriendRepository, FriendRepository>();
+
 
             //services.AddSingleton<ITestService, TestService>();
 
@@ -55,6 +59,11 @@ namespace HAHATalk
             services.AddTransient<ChangePwdControlViewModel>();
             services.AddTransient<FindAccountControlViewModel>();
             services.AddTransient<MainNaviControlViewModel>();
+
+            // 2026.03.17 FriendListControlViewModel 추가 
+            services.AddTransient<FriendListControlViewModel>();
+            // 2026.03.17 ChatListControlViewModel 추가 
+            services.AddTransient<ChatListControlViewModel>();
 
             // Views 
             services.AddSingleton(s => new MainView()

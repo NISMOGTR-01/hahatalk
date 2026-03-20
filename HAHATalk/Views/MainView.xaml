@@ -7,10 +7,14 @@
         xmlns:controls="clr-namespace:HAHATalk.Controls"      
         xmlns:vm="clr-namespace:HAHATalk.ViewModels"
         xmlns:ctrl="clr-namespace:WPFLib.Controls;assembly=WPFLib"
+         xmlns:fa6="http://schemas.fontawesome.com/icons/svg"
         mc:Ignorable="d"
         WindowStyle="None"
         Title="MainView" Height="550" Width="350">
     <Window.Resources>
+        <!-- BoolToVis-->
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+
         <!-- DataType에 ViewModel이 들어옴-->
         <DataTemplate DataType="{x:Type vm:LoginControlViewModel}"> <!-- ViewModel-->
             <!-- View -->
@@ -31,26 +35,104 @@
             <!-- View -->
             <controls:FindAccountControl/>
         </DataTemplate>
+        
+        <!-- 2026.03.17 Add FriendListViewModel -->
+        <DataTemplate DataType="{x:Type vm:FriendListControlViewModel}">
+            <controls:FriendListControl/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type vm:ChatListControlViewModel}">
+            <controls:ChatListControl/>
+        </DataTemplate>
     </Window.Resources>
     
     <WindowChrome.WindowChrome>
-        <WindowChrome CaptionHeight="20"
-                      ResizeBorderThickness="2"/>
+        <WindowChrome CaptionHeight="20" ResizeBorderThickness="2"/>
     </WindowChrome.WindowChrome>
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <RowDefinition/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         
         <!-- Title Bar -->
-        <controls:TitleBar />
+        <controls:TitleBar Grid.Row="0" />
+        
+        <!-- 2026.03.18 구조 변경 -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
 
-        <!-- body -->
-        <ctrl:ControlSlider Grid.Row="1"
-                            ViewModel="{Binding CurrentViewModel}"
-                            SlideType="{Binding SlideType}"
-                            Duration="0:0:0.3"/>
+            <ctrl:ControlSlider Grid.Column="0"
+                                Grid.ColumnSpan="2"
+                                Panel.ZIndex="0"
+                                ViewModel="{Binding CurrentViewModel}"
+                                SlideType="{Binding SlideType}"
+                                Duration="0:0:0.3"/>
+
+            <Border Grid.Column="0"
+                    Width="65"
+                    Panel.ZIndex="1"
+                    Background="#EBEBEB"
+                    BorderBrush="#DCDCDC"
+                    BorderThickness="0 0 2 0"
+                    Visibility="{Binding IsSideBarVisible, Converter={StaticResource BoolToVis}}" Cursor="">
+
+                <StackPanel Margin="0 20 0 0">
+                    <Button Command="{Binding NavigateToFriendListCommand}"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Margin="0 15">
+
+                        <fa6:SvgAwesome Icon="Solid_User" Width="22">
+                            <fa6:SvgAwesome.Style>
+                                <Style TargetType="fa6:SvgAwesome">
+                                    <Setter Property="PrimaryColor" Value="#888888"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding CurrentViewModel.ControlName}" Value="FriendList">
+                                            <Setter Property="PrimaryColor" Value="Black"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </fa6:SvgAwesome.Style>
+                        </fa6:SvgAwesome>
+                    </Button>
+
+                    <Button Command="{Binding NavigateToChatListCommand}"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Margin="0 15"
+                            Cursor="Hand">
+                        <fa6:SvgAwesome Icon="Solid_Comment" Width="22">
+                            <fa6:SvgAwesome.Style>
+                                <Style TargetType="fa6:SvgAwesome">
+                                    <Setter Property="PrimaryColor" Value="#888888"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding CurrentViewModel.ControlName}" Value="ChatList">
+                                            <Setter Property="PrimaryColor" Value="Black"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </fa6:SvgAwesome.Style>
+                        </fa6:SvgAwesome>
+                    </Button>
+                </StackPanel>
+                
+            </Border>
+
+            <!--
+            <ctrl:ControlSlider Grid.Row="1"
+                    ViewModel="{Binding CurrentViewModel}"
+                    SlideType="{Binding SlideType}"
+                    Duration="0:0:0.3"/>
+            -->
+            
+        </Grid>
+
+        
 
 
     </Grid>

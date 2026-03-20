@@ -301,3 +301,9 @@ C:\Users\LONI\Desktop\Project\HAHATalk\HAHATalk\bin\Debug\net10.0-windows7.0\run
 C:\Users\LONI\Desktop\Project\HAHATalk\HAHATalk\bin\Debug\net10.0-windows7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\LONI\Desktop\Project\HAHATalk\HAHATalk\bin\Debug\net10.0-windows7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\LONI\Desktop\Project\HAHATalk\HAHATalk\bin\Debug\net10.0-windows7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LONI\Desktop\Project\HAHATalk\HAHATalk\obj\Debug\net10.0-windows7.0\Controls\FriendListControl.g.cs
+C:\Users\LONI\Desktop\Project\HAHATalk\HAHATalk\obj\Debug\net10.0-windows7.0\Controls\FriendListControl.baml
+C:\Users\LONI\Desktop\Project\HAHATalk\HAHATalk\obj\Debug\net10.0-windows7.0\Controls\ChatListControl.g.cs
+C:\Users\LONI\Desktop\Project\HAHATalk\HAHATalk\obj\Debug\net10.0-windows7.0\Controls\ChatListControl.baml
+C:\Users\LONI\Desktop\Project\HAHATalk\HAHATalk\obj\Debug\net10.0-windows7.0\Controls\AddFriendControl.g.cs
+C:\Users\LONI\Desktop\Project\HAHATalk\HAHATalk\obj\Debug\net10.0-windows7.0\Controls\AddFriendControl.baml

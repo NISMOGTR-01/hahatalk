@@ -37,8 +37,8 @@ namespace HAHATalk.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Server=127.0.0.1; Database=ｈａｈａｔａｌｋ; User Id=root; Password=135７; TrustServerCert" +
-            "ificate=True; Encrypt=False;")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Server = 127.0.0.1, 9008; Uid = root; Pwd = 1357; database = hahatalk; TrustServe" +
+            "rCertificate=True;Encrypt=False;")]
         public string CONN_STRING_MS_ACCOUNT {
             get {
                 return ((string)(this["CONN_STRING_MS_ACCOUNT"]));

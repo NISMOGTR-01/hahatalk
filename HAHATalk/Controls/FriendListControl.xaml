@@ -1,0 +1,169 @@
+﻿<UserControl x:Class="HAHATalk.Controls.FriendListControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HAHATalk.Controls"
+             xmlns:fa6="http://schemas.fontawesome.com/icons/svg"
+             xmlns:vm="clr-namespace:HAHATalk.ViewModels"
+             xmlns:libConv="clr-namespace:WPFLib.Converters;assembly=WPFLib"
+             mc:Ignorable="d" 
+             d:DesignHeight="550" 
+             d:DesignWidth="350"
+             Background="white">
+    <UserControl.Resources>
+        <libConv:IntToVisibilityConverter x:Key="IntToVisibilityConverter"/>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Grid.Column 0 -->
+        <Grid Background="#EBEBEB" Grid.Column="0">
+            <StackPanel Margin="0 40 0 0">
+                <Button Background="Transparent"
+                        BorderThickness="0"
+                        Margin="0 15">
+                    <fa6:SvgAwesome Icon="Solid_User" Width="25"
+                                    PrimaryColor="#333333"/>
+                </Button>
+
+                <Grid Margin="0 15">
+                    <Button Background="Transparent" BorderThickness="0"
+                            Command="{Binding NavigateToChatListCommand}">
+                        <fa6:SvgAwesome Icon="Solid_Comment" Width="25"
+                                        PrimaryColor="#888888"/>
+                    </Button>
+                    <Border Background="#F44336" CornerRadius="7" 
+                            Height="14"  MinWidth="18"
+                            HorizontalAlignment="Right" VerticalAlignment="Top"
+                            Margin="0 0 10 0"
+                            Visibility="{Binding UserStore.TotalUnreadCount, Converter={StaticResource IntToVisibilityConverter}}" Cursor="">
+
+                        <TextBlock Text="{Binding UserStore.TotalUnreadCount}" 
+                                   FontSize="7"
+                                   Foreground="white" 
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center" 
+                                   Margin="2 0"/>
+                    </Border>
+                </Grid>
+
+                <Button Background="Transparent" BorderThickness="0" 
+                        Margin="0 12">
+                    <fa6:SvgAwesome Icon="Solid_Ellipsis" Width="22"
+                                    PrimaryColor="#888888"/>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+        <!-- Grid.Column 1 -->
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- 2026.03.19 친구 검색, 친구 등록 추가-->
+            <Grid Grid.Row="0" VerticalAlignment="Center" 
+                  Margin="15 15 15 0">
+                <TextBlock  Text="친구" FontSize="18"
+                            FontWeight="Bold" Margin="15,13,0,0"
+                            VerticalAlignment="Top" HorizontalAlignment="Left" Width="245"/>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right"
+                            VerticalAlignment="Center">
+                    <Button Background="Transparent" BorderThickness="0"
+                            Cursor="Hand" Margin="0 0 15 0"
+                            Command="{Binding SearchCommand}">
+                        <fa6:SvgAwesome Icon="Solid_MagnifyingGlass" Width="18"
+                                        PrimaryColor="#333333"/>
+                    </Button>
+
+                    <Button Background="Transparent" BorderThickness="0"
+                            Cursor="Hand" 
+                            Command="{Binding AddFriendCommand}">
+                        <fa6:SvgAwesome Icon="Solid_UserPlus" Width="20"
+                                        PrimaryColor="#333333"/>
+                    </Button>
+
+
+
+                </StackPanel>
+
+
+            </Grid>
+
+
+
+            <Grid Grid.Row="1" Margin="15 10 15 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Ellipse Width="50" Height="50"
+                         VerticalAlignment="Center">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="/Asset/default_Profile.png"
+                                    Stretch="UniformToFill"/>
+                    </Ellipse.Fill>
+                </Ellipse>
+
+                <StackPanel Grid.Column="1" VerticalAlignment="Center"
+                            Margin="10 0 0 0">
+                    <TextBlock Text="기로뽕~!!" FontWeight="Bold"
+                               FontSize="14"/>
+                    <TextBlock Text="한별아! 내 사랑을 받아줘~!!" FontSize="11" 
+                               Foreground="Gray" Margin="0 2 0 0"
+                               TextTrimming="CharacterEllipsis"/>
+                </StackPanel>
+            </Grid>
+
+            <Separator Grid.Row="1" VerticalAlignment="Bottom"
+                       Margin="15 0" Background="#F3F3F3"/>
+
+            <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Hidden"
+                          Margin="0 5 0 0">
+                <StackPanel Margin="15 5">
+                    <TextBlock Text="{Binding FriendsCountText}"
+                               FontSize="10" Foreground="Gray"
+                               Margin="5 0 0 8"/>
+
+                    <ItemsControl ItemsSource="{Binding Friends}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Margin="0 0 0 10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="40"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Ellipse Width="38" Height="38"
+                                             Fill="#DAEAF1"/>
+                                    <fa6:SvgAwesome Icon="Solid_User" Width="15" 
+                                                    PrimaryColor="White" 
+                                                    HorizontalAlignment="Center" 
+                                                    VerticalAlignment="Center"/>
+
+                                    <StackPanel Grid.Column="1" VerticalAlignment="Center"
+                                                Margin="10 0">
+                                        <TextBlock Text="{Binding FriendName}" FontSize="13"
+                                                   FontWeight="SemiBold"/>
+                                        <TextBlock Text="{Binding StatusMsg}" 
+                                                   FontSize="10" Foreground="Gray"
+                                                   TextTrimming="CharacterEllipsis"/>
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+            </ScrollViewer>            
+        </Grid>
+    </Grid>
+</UserControl>

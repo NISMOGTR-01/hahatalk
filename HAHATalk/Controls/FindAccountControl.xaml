@@ -10,6 +10,22 @@
              d:DesignHeight="550"
              d:DesignWidth="350"
              Background="{StaticResource ColorPrimary}">
+    
+    <UserControl.Resources>
+        <Style x:Key="ValidationTextStyle" TargetType="{x:Type TextBlock}">
+            <Setter Property="Visibility" Value="Visible"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding ValidationText}" Value="">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+        
+    </UserControl.Resources>
+
+
+
     <Grid Margin="20 40 20 20">
         <Grid.RowDefinitions>
             <RowDefinition Height="1.3*"/>
@@ -28,17 +44,25 @@
                     Margin="30 10">
             <controls:TextBoxControl 
                 x:Name="email"
-                Text="{Binding Cellphone}"
+                Text="{Binding CellPhone}"
                 WaterMarkText="전화번호"
                 Background="White"
                 Height="{StaticResource MainElementHeight}"
+                Validating="{Binding CellPhone}"
                 Margin="0 0 0 10"
                 />
-
+            
+            <!-- 2026.03.16 아이디 찾기 추가 -->
+            <TextBlock Text="{Binding ValidationText}"
+                       Style="{StaticResource ValidationTextStyle}"
+                       Foreground="Red"
+                       Margin="0 5 0 0 "
+                       />
+            
             <Button Content="계정 찾기"
                     Command="{Binding FindAccountCommand}"
                     Height="{StaticResource MainElementHeight}"
-                    Margin="0 0 0 10"/>
+                    Margin="0 30 0 10"/>
         </StackPanel>
     
         <!-- Bottom -->

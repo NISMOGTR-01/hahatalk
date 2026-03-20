@@ -12,9 +12,9 @@ namespace HAHATalk.Repositories
 
 
 
-        string MSSQL_connectionString = string.Format("Server = 127.0.0.1, 9008; Uid = root; Pwd = 1357; database = hahatalk; TrustServerCertificate=True;Encrypt=False;");
+        
 
-        protected MSSqlDb MSAccountDb => new MSSqlDb(MSSQL_connectionString);
+        protected MSSqlDb MSAccountDb => new MSSqlDb(Properties.Settings.Default.CONN_STRING_MS_ACCOUNT);
         //protected MSSqlDb MSAccountDb => new MSSqlDb(Properties.Settings.Default.CONN_STRING_MS_ACCOUNT);
 
 

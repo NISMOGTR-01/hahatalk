@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\LONI\Desktop\Project\HAHATalk\HAHATalk\App.xaml
-12-664312752
+15-289309551
 
-31-1680258122
-240-320377152
-Controls\ChangePwdControl.xaml;Controls\FindAccountControl.xaml;Controls\LoginControl.xaml;Controls\MainNaviControl.xaml;Controls\SignupControl.xaml;Controls\TitleBar.xaml;Styles\Buttons.xaml;Styles\Colors.xaml;Styles\Fonts.xaml;Styles\MainStyles.xaml;Styles\Systems.xaml;Views\MainView.xaml;
+43-383631704
+240-598998021
+Controls\AddFriendControl.xaml;Controls\ChangePwdControl.xaml;Controls\ChatListControl.xaml;Controls\FindAccountControl.xaml;Controls\FriendListControl.xaml;Controls\LoginControl.xaml;Controls\MainNaviControl.xaml;Controls\SignupControl.xaml;Controls\TitleBar.xaml;Styles\Buttons.xaml;Styles\Colors.xaml;Styles\Fonts.xaml;Styles\MainStyles.xaml;Styles\Systems.xaml;Views\MainView.xaml;
 
 False
 

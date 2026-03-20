@@ -41,6 +41,15 @@ namespace HAHATalk.Services
                 case NaviType.ChangePwd:
                     MainNavigate(SlideType.RightToLeft, typeof(ChangePwdControlViewModel));
                     break;
+                // 2026.03.17 FriendList 타입 추가 
+                case NaviType.FriendList:
+                    MainNavigate(SlideType.LeftToRight, typeof(FriendListControlViewModel));
+                    break;
+                // 2026.03.17 ChatList 타입 추가 
+                case NaviType.ChatList:
+                    MainNavigate(SlideType.BottomToTop, typeof(ChatListControlViewModel));
+                    break;
+
             }
         }
     }

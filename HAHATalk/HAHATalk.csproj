@@ -9,6 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Asset\556_Profile.jpg" />
+    <None Remove="Asset\default_Profile.png" />
+    <None Remove="Asset\jh.png" />
+    <None Remove="Asset\jihong.png" />
+    <None Remove="Controls\FriendListControl.xaml~RF5ed23b2.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
     <PackageReference Include="FontAwesome6.Svg" Version="2.5.1" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.4" />
@@ -20,6 +28,13 @@
   <ItemGroup>
     <ProjectReference Include="..\CommonLib\CommonLib.csproj" />
     <ProjectReference Include="..\WPFLib\WPFLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Asset\556_Profile.jpg" />
+    <Resource Include="Asset\default_Profile.png" />
+    <Resource Include="Asset\jh.png" />
+    <Resource Include="Asset\jihong.png" />
   </ItemGroup>
 
   <ItemGroup>
