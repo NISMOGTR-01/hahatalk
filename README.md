@@ -1,40 +1,36 @@
-# 🚀 HAHATalk (WPF MVVM Study & Extension Project)
+📱 HAHATalk (WPF MVVM Study & Extension Project)
+본 프로젝트는 **'까불이 코더'**님의 WPF 카카오톡 클론 코딩 프로젝트를 기반으로 학습하며, 
+이를 실무적인 관점에서 기능 확장 및 아키텍처 개선을 진행한 프로젝트입니다.
 
-본 프로젝트는 **'까불이 코더'**님의 WPF 카카오톡 클론 코딩 프로젝트를 기반으로 학습하며, 이를 실무적인 관점에서 **기능 확장 및 아키텍처 개선**을 진행한 프로젝트입니다.
+단순한 UI 모방을 넘어, 5년간의 WinForms 개발 경험을 바탕으로 WPF의 MVVM 패러다임을 완벽히 이해하고, 
+실무 MSSQL 환경에 최적화된 아키텍처로 재설계하는 데 중점을 두었습니다.
 
-단순한 UI 모방을 넘어, **WinForms 개발자로서 WPF의 MVVM 패러다임을 완벽히 이해하고 실무 DB(MSSQL) 환경에 맞게 재설계**하는 데 중점을 두었습니다.
+🛠 주요 개선 및 기술적 도전 (Technical Challenges)
+원천 프로젝트의 구조를 기반으로 직접 설계하고, 실무 발생 가능성이 높은 이슈들을 해결한 차별화 포인트입니다.
 
----
+1. Database & Persistence Layer 최적화
+MSSQL 전면 교체: 실무 환경(MES 등)에서 주로 쓰이는 MSSQL로 환경을 전환하고, 이에 최적화된 SQL 쿼리 및 IAccountRepository를 재설계했습니다.
 
-## 🛠 주요 개선 및 확장 사항 (Customizing)
+데이터 무결성 확보: 친구 추가 시 외래 키(FK) 제약 조건 위반 에러를 방지하기 위해, 저장 전 사전 중복 체크 로직을 구현하고 SqlException 예외 처리를 세분화하여 시스템 안정성을 높였습니다.
 
-원천 프로젝트의 구조를 바탕으로 본인이 직접 설계하고 구현한 차별화 포인트입니다.
+2. UI/UX 정밀 최적화 (WPF 특화 기능 활용)
+레이아웃 벌어짐 해결: AllowsTransparency 속성 사용 시 발생하는 투명 영역 여백 문제를 SizeToContent="WidthAndHeight" 설정을 통해 해결하여, 콘텐츠에 딱 맞는 정밀한 팝업 UI를 구현했습니다.
 
-### 1. Database & Persistence Layer 전환
-* **DB 환경 변경**: 기존 MySQL 환경을 실무 MES 환경에서 주로 쓰이는 **MSSQL**로 전면 교체.
-* **Repository 패턴 고도화**: MSSQL 환경에 최적화된 `IAccountRepository` 인터페이스 재설계 및 `Dapper` 기반의 CRUD 로직 구현.
+선언적 UI 피드백: DataTrigger와 Dictionary Binding을 활용하여 비하인드 코드 없이도 입력 필드의 유효성 상태를 실시간으로 사용자에게 알립니다.
 
-### 2. 신규 비즈니스 로직 및 기능 추가
-* **비밀번호 변경 (Password Change)**: 
-  - 현재 비밀번호 검증 및 신규 비밀번호 일치 여부 확인 로직 구현.
-  - `Dictionary<string, bool>`를 활용하여 각 입력 필드의 유효성 상태를 실시간으로 관리.
-  - 관련 MSSQL UPDATE 쿼리 및 프로시저 대응 함수 구현.
-* **계정 찾기 (Find Account)**:
-  - 계정 정보 확인을 위한 전용 화면 UI 설계 및 ViewModel 연동.
-  - 이메일 및 사용자 정보를 기반으로 한 조회 쿼리 반영.
+3. 신규 비즈니스 로직 확장
+비밀번호 변경 (Password Change): 현재 비밀번호 검증 및 신규 비밀번호 일치 확인 로직 구현.
 
----
+계정 찾기 (Find Account): 이메일 기반 정보 조회 기능 및 전용 UI/ViewModel 연동.
 
-## 📌 주요 기술 스택 및 개념
-* **Framework**: .NET 8 / WPF
-* **Pattern**: MVVM (CommunityToolkit.Mvvm)
-* **Validation**: `DataTrigger`와 `Dictionary Binding`을 통한 선언적 UI 피드백.
-* **Asynchronous**: UI 프리징 방지를 위한 비동기 처리 구조 학습.
+📅 향후 개발 계획 (Roadmap)
+단순 관리를 넘어 실시간 소통이 가능한 메신저로 완성하기 위해 아래 기능을 구현 중입니다.
 
----
+[In Progress] 채팅 데이터 연동: IChatRepository를 설계하여 DB에 저장된 과거 대화 이력을 비동기(async/await)로 로드하는 기능을 구현 중입니다.
 
-## 💡 개발자의 한마디
-"5년간의 WinForms 개발 경험을 통해 쌓은 DB 설계 및 비즈니스 로직 구현 능력을 바탕으로, 
-WPF의 현대적인 MVVM 패턴을 성공적으로 이식했습니다. 
-오픈 소스 강의를 학습의 마중물로 삼아, 실제 현장에서 요구되는 
-**데이터 정합성 검사**와 **확장 가능한 Repository 구조**로 발전시키는 과정을 담았습니다."
+[Planned] 이벤트 핸들링 고도화: 친구 목록 항목 더블 클릭 시, 해당 유저와의 고유 세션 키를 기반으로 1:1 채팅창을 생성하는 동적 윈도우 생성 로직을 적용할 예정입니다.
+
+[Planned] 실시간 상태 동기화: ObservableCollection을 활용한 실시간 친구 목록 및 메시지 리스트 업데이트 최적화.
+
+💡 개발자의 한마디
+"WinForms의 직관적인 개발 방식에서 벗어나, WPF의 현대적인 관심사 분리(SoC) 원칙을 체득했습니다. 오픈 소스 강의를 학습의 마중물로 삼아, 실제 현장에서 요구되는 데이터 정합성 검사와 비동기 처리 기반의 확장 가능한 구조로 발전시키는 과정을 담았습니다."
